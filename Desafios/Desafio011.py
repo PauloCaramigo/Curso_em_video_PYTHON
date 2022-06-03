@@ -6,5 +6,5 @@ alt = float(input('Quantos metros de altura tem a parede? '))
 lar = float(input('Quantos metros de largura tem a parede? '))
 area = alt*lar
 
-print('\nA área quadrada da parede é de {} e sera necessario {} litros de tinta para pintar a parede'
+print('\nA área quadrada da parede é de {}m² e sera necessário {}L de tinta para pintar a parede'
       .format(area, area/2))
